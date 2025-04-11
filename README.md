@@ -3,7 +3,7 @@
 This repository will contain PyTorch evaluation code, and pretrained models for the following project:
 * FlexDiT: Dynamic Token Density Control for Diffusion Transformer
 
-For details see [K-NN Attention for Boosting Vision Transformers]([https://arxiv.org/abs/2106.00515](https://arxiv.org/abs/2412.06028)) by Shuning Chang, Pichao Wang, Jiasheng Tang, Yi Yang. 
+For details see [FlexDiT](https://arxiv.org/abs/2412.06028) by Shuning Chang, Pichao Wang, Jiasheng Tang, Yi Yang. 
 
 The code is based on [DiT](https://github.com/chuanyangjin/fast-DiT).
 
