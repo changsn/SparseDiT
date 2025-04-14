@@ -8,11 +8,15 @@ For details see [FlexDiT](https://arxiv.org/abs/2412.06028) by Shuning Chang, Pi
 The code is based on [DiT](https://github.com/chuanyangjin/fast-DiT).
 
 ## Results on ImageNet-1K
-<img src="image/Results.png" width="600">
+<img src="images/results.jpg" width="600">
 
 ## Visualization
 
 ImageNet 512x512
-<img src="image/vis1.png" >
+<img src="images/coral_reef.png" >
 
-<img src="image/vis2.png" >
+<img src="images/otter.png" >
+
+<img src="images/sulphur-crested_cockatoo.png" >
+
+<img src="images/volcano.png" >
