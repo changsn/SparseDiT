@@ -25,15 +25,15 @@
 First, download and set up the repo:
 
 ```bash
-git clone https://github.com/changsn/FlexDiT.git
-cd FlexDiT
+git clone https://github.com/changsn/SparseDit.git
+cd SparseDit
 ```
 
 We provide an [`environment.yml`](environment.yml) file that can be used to create a Conda environment.
 
 ```bash
 conda env create -f environment.yml
-conda activate SparseDiT
+conda activate sparseDiT
 ```
 
 ## Data preparation
