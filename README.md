@@ -33,7 +33,7 @@ We provide an [`environment.yml`](environment.yml) file that can be used to crea
 
 ```bash
 conda env create -f environment.yml
-conda activate sparseDiT
+conda activate SparseDiT
 ```
 
 ## Data preparation
