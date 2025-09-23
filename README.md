@@ -3,7 +3,8 @@
 ### [Paper](https://arxiv.org/abs/2412.06028) by Shuning Chang, Pichao Wang, Jiasheng Tang, Fan Wang, Yi Yang. 
 
 #### The code is based on [DiT](https://github.com/chuanyangjin/fast-DiT).
-#### The inference code is now available, and the training code will be released shortly.
+#### Both training and inference code is available!
+#### The code contains the implementation of SparseDiT network without timestep-wise pruning strategy.
 <img src="images/structure.jpg" >
 
 ## Results on ImageNet-1K
@@ -37,8 +38,13 @@ conda activate SparseDiT
 
 ## Data preparation
 
-Pleaset refer to [Fast-DiT](https://github.com/chuanyangjin/fast-DiT) to extract ImageNet vae features.
+Pleaset refer to [Fast-DiT](https://github.com/chuanyangjin/fast-DiT) to extract ImageNet vae features and download pre-trained models.
 
+## Training
+```
+accelerate launch --multi_gpu --num_processes 8 --mixed_precision fp16 train.py --model DiT-XL/2 --pretrained /path/to/pre-trained/model --feature-path /path/to/store/features --image-size 512
+```
+You can set your hyper-parameters according to my log files.
 
 ## Sampling and Evaluation
 To evaluate SparseDiT-DiT-XL-512x5112 on ImageNet on N gpus run:
