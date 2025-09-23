@@ -1,4 +1,4 @@
-## FlexDiT: Dynamic Token Density Control for Diffusion Transformer (FlexDiT)<br><sub>Official PyTorch Implementation</sub>
+## SparseDiT: Token Sparsification for Efficient Diffusion Transformer (NeurIPS 2025)<br><sub>Official PyTorch Implementation</sub>
 
 ### [Paper](https://arxiv.org/abs/2412.06028) by Shuning Chang, Pichao Wang, Jiasheng Tang, Fan Wang, Yi Yang. 
 
@@ -32,7 +32,7 @@ We provide an [`environment.yml`](environment.yml) file that can be used to crea
 
 ```bash
 conda env create -f environment.yml
-conda activate FlexDiT
+conda activate SparseDiT
 ```
 
 ## Data preparation
@@ -41,7 +41,7 @@ Pleaset refer to [Fast-DiT](https://github.com/chuanyangjin/fast-DiT) to extract
 
 
 ## Sampling and Evaluation
-To evaluate Flex-DiT-XL-512x5112 on ImageNet on N gpus run:
+To evaluate SparseDiT-DiT-XL-512x5112 on ImageNet on N gpus run:
 
 ```
 torchrun --nnodes=1 --nproc_per_node=N sample_ddp.py --model DiT-XL/2 --num-fid-samples 50000 --image-size 512 --seed 1
