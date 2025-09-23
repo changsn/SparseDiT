@@ -1,4 +1,4 @@
-name: DiT
+name: SparseDiT
 channels:
   - pytorch
   - nvidia
