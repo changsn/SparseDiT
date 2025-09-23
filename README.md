@@ -44,7 +44,7 @@ Pleaset refer to [Fast-DiT](https://github.com/chuanyangjin/fast-DiT) to extract
 ```
 accelerate launch --multi_gpu --num_processes 8 --mixed_precision fp16 train.py --model DiT-XL/2 --pretrained /path/to/pre-trained/model --feature-path /path/to/store/features --image-size 512
 ```
-You can set your hyper-parameters according to my log files.
+You can set your hyper-parameters according to my [log files](https://github.com/changsn/FlexDiT/tree/main/logs).
 
 ## Sampling and Evaluation
 To evaluate SparseDiT-DiT-XL-512x5112 on ImageNet on N gpus run:
