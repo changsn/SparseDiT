@@ -25,7 +25,7 @@ First, download and set up the repo:
 
 ```bash
 git clone https://github.com/changsn/FlexDiT.git
-cd DiT
+cd FlexDiT
 ```
 
 We provide an [`environment.yml`](environment.yml) file that can be used to create a Conda environment.
