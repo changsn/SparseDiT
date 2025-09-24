@@ -68,10 +68,13 @@ evaluation suite](https://github.com/openai/guided-diffusion/tree/main/evaluatio
 If you use this code for a paper please cite:
 
 ```
-@article{chang2024flexdit,
-  title={FlexDiT: Dynamic Token Density Control for Diffusion Transformer},
-  author={Chang, Shuning and Wang, Pichao and Tang, Jiasheng and Yang, Yi},
-  journal={arXiv preprint arXiv:2412.06028},
-  year={2024}
+@misc{chang2025sparsedittokensparsificationefficient,
+      title={SparseDiT: Token Sparsification for Efficient Diffusion Transformer}, 
+      author={Shuning Chang and Pichao Wang and Jiasheng Tang and Fan Wang and Yi Yang},
+      year={2025},
+      eprint={2412.06028},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.06028}, 
 }
 ```
